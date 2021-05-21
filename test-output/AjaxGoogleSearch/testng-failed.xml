@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AjaxGoogleSearch]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AjaxGoogleSearch Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.ajaxgooglesearch.testcases.AjaxGoogleSearch">
+        <methods>
+          <include name="main"/>
+        </methods>
+      </class> <!-- com.ajaxgooglesearch.testcases.AjaxGoogleSearch -->
+    </classes>
+  </test> <!-- AjaxGoogleSearch Test(failed) -->
+</suite> <!-- Failed suite [AjaxGoogleSearch] -->
